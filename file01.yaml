@@ -1,0 +1,6 @@
+- name: practising the ansible
+  hosts: frontend
+  tasks: 
+   - name: writing book
+     debug:
+      msg: practising ansible
